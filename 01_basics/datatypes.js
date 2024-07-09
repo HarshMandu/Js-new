@@ -174,12 +174,12 @@
 
 // console.log(JsUser.greeting());
 
-const tinderUser=new Object()
+// const tinderUser=new Object()
 
-tinderUser.id="113abc"
-tinderUser.name="harshu"
-tinderUser.isLoggedIn=false
-console.log(tinderUser);
+// tinderUser.id="113abc"
+// tinderUser.name="harshu"
+// tinderUser.isLoggedIn=false
+// console.log(tinderUser);
 
 // const obj1={1:"a",2:"b"}
 // const obj2={3:"e",4:"r"}
@@ -191,10 +191,140 @@ console.log(tinderUser);
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
 
+ //++++++++++++++++++++++++++++++++++++++++++++++++=//
  
+// function calculateCartpRICE(...num1){
+//     return num1
+// }
+// console.log(calculateCartpRICE(200,400,500))
+
+//  const user={
+//     username:"harsh",
+//     price:200
+//  }  
+
+// function handleObject(anyobject){
+//     console.log(`Usernameis ${anyobject.username} and price is ${anyobject.price}`)
+// }
+
+// handleObject(user)
+
+ 
+// function one(){
+//     const username="harsh"
+
+//     function two(){
+//         const website="youtube"
+//         console.log(username);
+//     }
+//     // console.log(website);
+
+//     two()
+
+// }
+
+// one()
+// console.log(addone(5))
+// function addone(num){
+//     return num+1
+// }
 
 
+// const addtwo=function(num){
+//     return num+2
 
+// }
+// console.log(addtwo(5))
+
+//  const user={
+//     username:"harsh",
+//     price:999,
+
+//     welcomeMessage:function(){
+//       console.log(`${this.username},welcome to website`);
+
+//     }
+
+
+//  }
+
+// user.welcomeMessage()
+// user.username="dhruvi"
+// user.welcomeMessage()
+
+// function chai(){
+//    console.log(this);
+// }
+
+// chai()
+
+// const chai=() =>{
+//    let username="harsh"
+//    console.log(this.username);
+
+// }
+
+// const addtwo=(num1,num2) => {
+//    return num1+num2
+
+// }
+// console.log(addtwo(3,4))
+
+// const addtwo=(num1,num2) => (num1+num2)
+
+// console.log(addtwo(3,4))
+
+// IMMEDIATELY INVOVKED FUCTION EXPRESSIONS (IIFE) to remove global scope pollution
+
+// (function chai(){
+//    console.log(`DB CONNECTED`);
+// })();
+
+
+// ((name) => {
+//    console.log(`DB CONNECTED two ${name}`);
+// })('harsh')
+
+// function one(){
+//     console.log("one")
+// }
+// one()
+
+// if
+//  const score =200
+//  if(score>100){
+//     let power='fly'
+//     console.log(`user power: ${power}`);
+//  }
+//  console.log(`user power: ${power}`);
+
+// const balance=1000
+// if (balance>500) console.log("test");
+
+// const userloggedIn=true
+// const debitCard=true
+// const loggedinfromgoogle=false
+// const loggedinfromemail=true
+
+// if(userloggedIn && debitCard){
+//     console.log("allow to buy");
+// }
+
+// if(loggedinfromgoogle || loggedinfromemail){
+//     console.log("logged in");
+
+//
+// falsy value
+// flase,0,,-0,BigInt 0n,"",null,undefined,NaN
+
+// truthy value
+// "0",'false'," ",[],{},funcation(){}
+
+// if(useremail.length===0){
+//     console.log("array os empty");
+// }
+
+// NULLISH COALESCING OPERATOR (??):null undefined
 
 
 
