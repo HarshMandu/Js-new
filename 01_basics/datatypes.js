@@ -402,15 +402,97 @@
 //     console.log(key,':-',value);
 // }
 
-const myObject={
-    js:'javascript',
-    cpp:'C++',
-    rb:"ruby"
-}
+// const myObject={
+//     js:'javascript',
+//     cpp:'C++',
+//     rb:"ruby"
+// }
 
-for (const key in myObject) {
-    console.log(`${key} shortcut is for ${myObject[key]}`);
-}
+// for (const key in myObject) {
+//     console.log(`${key} shortcut is for ${myObject[key]}`);
+// }
+
+// for each loop
+const coding=["js","ruby","java","python","cpp"]
+ 
+// coding.forEach( function (num){
+//     console.log(num);
+
+// })
+
+// coding.forEach((item) => {
+//     console.log(item);
+// });
+
+// coding.forEach((item,index,arr)=>{
+//     console.log(item,index,arr);
+// })
+
+//  const values=coding.forEach((item) =>{
+//     console.log(item);
+//     return item
+//  })
+ 
+//  console.log(values);
+
+// const myNums =[1,2,3,4,5,6,7,8,9,10]
+
+// const newnums=myNums.filter((num) => num > 4)
+// console.log(newnums);
+
+
+// const newnums=myNums.filter((num) => {
+//     return num > 4
+// })
+// console.log(newnums);
+
+//  const mynumbers=[1,2,3,4,5,6,7,8,9]
+
+// // const num=mynumbers.map((num)=> num+10)
+
+// const num=mynumbers
+//             .map((num)=>num*10)
+//             .map((num)=>num+10)
+//             .filter((num)=> num>30)
+// console.log(num);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
